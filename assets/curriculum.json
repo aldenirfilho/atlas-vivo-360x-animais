@@ -1,0 +1,434 @@
+{
+  "version": "0.3.0",
+  "domain": "zoologia",
+  "modules": [
+    {
+      "id": "zg-zoo-filogenia",
+      "title": "Parentesco, organização corporal e nomes dos animais",
+      "domain": "zoologia",
+      "summary": "Compare caracteres e árvores evolutivas sem transformar a diversidade animal numa escada de progresso.",
+      "core": [
+        {
+          "heading": "Corpo e desenvolvimento",
+          "text": "Simetria descreve a distribuição das partes: bilateralidade distingue os lados direito e esquerdo; radialidade distribui estruturas ao redor de um eixo; muitos poríferos são assimétricos. Simetria pode mudar entre estágios: equinodermos têm larvas bilaterais e adultos geralmente pentarradiais. Cnidários são usualmente apresentados como diblásticos; bilatérios são triblásticos. Ectoderme, endoderme e mesoderme são folhetos embrionários, não três órgãos adultos."
+        },
+        {
+          "heading": "Cavidades não são degraus",
+          "text": "Celoma é uma cavidade corporal revestida por mesoderme; não se confunde com a luz intestinal. Acelomado, pseudocelomado e celomado descrevem organização, mas não constituem uma sequência universal de ancestrais. Nematódeos são pseudocelomados e pertencem a Ecdysozoa; artrópodes também são ecdisozoários, apesar das diferenças de cavidade corporal."
+        }
+      ],
+      "advanced": [
+        {
+          "heading": "Protostomia e Deuterostomia",
+          "text": "O destino do blastóporo, a orientação da clivagem e a formação do celoma são modelos comparativos com exceções. A inclusão de uma linhagem num clado exige evidência filogenética, não a aplicação isolada de uma regra de embriologia. Moluscos e anelídeos integram Lophotrochozoa; artrópodes e nematódeos integram Ecdysozoa. Semelhança externa pode resultar de convergência, portanto morfologia, fósseis e dados moleculares devem ser confrontados."
+        },
+        {
+          "heading": "Taxonomia e nomenclatura",
+          "text": "Classificar é propor relações e delimitar táxons; nomear é aplicar regras. Pelo ICZN, o nome de espécie combina gênero e epíteto específico; o de subespécie tem três termos. O gênero começa com maiúscula. Registrar autoria, fonte e data da identificação permite acompanhar revisões. Um nome popular pode designar espécies diferentes, e uma espécie pode ter vários nomes populares."
+        }
+      ],
+      "examTraps": [
+        "O blastóporo não é uma chave infalível para reconhecer qualquer protostômio ou deuterostômio.",
+        "Nem todo animal radial é diblástico: considere o estágio e a radialidade secundária dos equinodermos.",
+        "Celoma não é sinônimo de tubo digestório, e sua ausência não define inferioridade evolutiva."
+      ],
+      "sourceRefs": [
+        "zg-animal-body",
+        "zg-animal-phylogeny",
+        "zg-iczn-names"
+      ]
+    },
+    {
+      "id": "zg-zoo-invertebrados",
+      "title": "Invertebrados: comparar estruturas, funções e linhagens",
+      "domain": "zoologia",
+      "summary": "O rótulo escolar invertebrados reúne muitas linhagens; o estudo comparativo esclarece seus planos corporais.",
+      "core": [
+        {
+          "heading": "Filtração e cavidade gastrovascular",
+          "text": "Poríferos mantêm correntes de água e capturam partículas; coanócitos participam da filtração. Não possuem a organização de órgãos dos demais grupos aqui comparados. Cnidários têm cnidócitos, células especializadas que contêm estruturas como nematocistos, e uma cavidade gastrovascular com uma abertura no plano geral. Pólipo e medusa são formas corporais, não sexos, nem etapas obrigatórias de todas as espécies."
+        },
+        {
+          "heading": "Vermiforme não significa mesmo parentesco",
+          "text": "Anelídeos apresentam segmentação corporal, com diversidade de cerdas e apêndices; muitos têm circulação fechada. Nematódeos não são segmentados, possuem tubo digestório completo e cutícula que sofre muda. Há espécies livres e parasitárias. A forma alongada, por si só, não agrupa minhocas, lombrigas e larvas de insetos num mesmo filo."
+        },
+        {
+          "heading": "Manto e apêndices articulados",
+          "text": "O plano molusco inclui manto, massa visceral e pé, profundamente modificados em algumas linhagens. Bivalves não têm rádula; cefalópodes possuem circulação fechada, diferindo do padrão aberto comum nos demais moluscos. Artrópodes possuem apêndices articulados e exoesqueleto; segmentos podem estar reunidos em tagmas. Traqueias, brânquias e estruturas pulmonares variam entre seus grupos."
+        }
+      ],
+      "advanced": [
+        {
+          "heading": "Equinodermos e comparação funcional",
+          "text": "Equinodermos são deuterostômios marinhos com endoesqueleto e sistema ambulacrário. Os pés ambulacrários podem atuar em locomoção, adesão, alimentação e trocas gasosas conforme o grupo. Compare cada organismo por revestimento, sustentação, digestão, circulação, excreção, reprodução e habitat. Ausência de um órgão especializado não significa ausência da função: difusão e superfícies corporais podem realizar trocas. A comparação deve reconhecer adaptações, sem eleger um animal como objetivo final da evolução."
+        }
+      ],
+      "examTraps": [
+        "Circulação aberta não é regra para todos os moluscos.",
+        "Nem todo cnidário alterna pólipo e medusa.",
+        "Nematódeos e anelídeos não são o mesmo grupo porque ambos podem ser chamados vermes."
+      ],
+      "sourceRefs": [
+        "zg-porifera",
+        "zg-cnidaria",
+        "zg-mollusca-annelida",
+        "zg-nematoda",
+        "zg-arthropoda",
+        "zg-deuterostomia"
+      ]
+    },
+    {
+      "id": "zg-zoo-vertebrados",
+      "title": "Vertebrados: circulação, respiração e reprodução comparadas",
+      "domain": "zoologia",
+      "summary": "Relacione os sistemas ao modo de vida e reconheça exceções que as tabelas escolares costumam ocultar.",
+      "core": [
+        {
+          "heading": "Circuitos e superfícies respiratórias",
+          "text": "No modelo de peixe com respiração branquial, o sangue passa uma vez pelo coração a cada circuito completo: circulação simples. Anfíbios geralmente apresentam circulação dupla e coração com dois átrios e um ventrículo; a separação dos fluxos envolve funcionamento e anatomia. Nos répteis não avianos, a separação ventricular varia; crocodilianos têm quatro câmaras. Aves e mamíferos possuem circuitos pulmonar e sistêmico com separação completa."
+        },
+        {
+          "heading": "Respirar depende da linhagem e do estágio",
+          "text": "Anfíbios podem usar pele, brânquias e pulmões em combinações diferentes; há salamandras sem pulmões e espécies com desenvolvimento direto. Aves têm pulmões com fluxo especializado e sacos aéreos que participam da ventilação; os sacos não equivalem a alvéolos de mamíferos. Pulmão, ventilação e troca gasosa são conceitos relacionados, mas distintos."
+        },
+        {
+          "heading": "Ovo amniótico e diversidade reprodutiva",
+          "text": "Âmnio, cório, alantoide e saco vitelínico integram a organização embrionária dos amniotas. Mamíferos também são amniotas, mesmo quando o embrião se desenvolve no útero. Monotremados põem ovos; marsupiais e placentários apresentam outras estratégias. Fecundação interna não determina, sozinha, se a espécie é ovípara ou vivípara."
+        }
+      ],
+      "advanced": [
+        {
+          "heading": "Ler a árvore e não apenas a tabela",
+          "text": "Aves pertencem à linhagem dos dinossauros terópodes e integram os répteis em uma classificação filogenética. O agrupamento tradicional répteis que exclui aves é parafilético: omite descendentes de um ancestral incluído. Comparações entre grupos vivos não devem tratá-los como etapas pelas quais uma espécie atual precisa passar. Separar origem evolutiva, função presente e história do desenvolvimento evita explicações teleológicas."
+        }
+      ],
+      "examTraps": [
+        "Crocodilianos têm quatro câmaras cardíacas.",
+        "Nem todo anfíbio passa por um girino aquático de vida livre.",
+        "Aves continuam pertencendo à linhagem dos répteis mesmo quando estudadas num capítulo separado."
+      ],
+      "sourceRefs": [
+        "zg-circulation",
+        "zg-amphibia",
+        "zg-reptilia",
+        "zg-aves",
+        "zg-mammalia"
+      ]
+    },
+    {
+      "id": "zg-zoo-reproducao",
+      "title": "Gametas, embriões e ciclos: acompanhe a ploidia",
+      "domain": "zoologia",
+      "summary": "Posicione mitose, meiose e fecundação no ciclo, em vez de decorar que toda célula reprodutiva nasce da mesma divisão.",
+      "core": [
+        {
+          "heading": "Dois eventos mudam o ciclo",
+          "text": "Meiose reduz o número de conjuntos cromossômicos; fecundação reúne os conjuntos dos gametas. No ciclo diplonte típico dos animais, o organismo multicelular é diploide e a fase haploide se restringe aos gametas. O zigoto cresce por mitoses. No ciclo haplonte, a meiose ocorre no zigoto; no haplodiplonte, há fases multicelulares haploide e diploide. Esses termos descrevem ploidia, não tamanho ou importância ecológica."
+        },
+        {
+          "heading": "Produzir não é apenas dividir",
+          "text": "A linhagem germinativa pode proliferar por mitose antes da meiose. No modelo humano, espermatogênese e ovogênese diferem na repartição do citoplasma, no ritmo e na maturação; não se deve transportar todos esses detalhes para qualquer animal. Na meiose, uma replicação do DNA precede duas divisões. Homólogos se separam na primeira e cromátides-irmãs, na segunda. Recombinação e segregação contribuem para diversidade."
+        },
+        {
+          "heading": "Fecundação e início do desenvolvimento",
+          "text": "Após a fecundação, clivagens formam blastômeros; gastrulação reorganiza células e estabelece folhetos. A quantidade e distribuição do vitelo influenciam o padrão de clivagem. Fecundação externa ou interna e desenvolvimento direto ou indireto são eixos distintos de comparação. Brotamento e fragmentação com regeneração podem produzir novos indivíduos sem fusão de gametas."
+        }
+      ],
+      "advanced": [
+        {
+          "heading": "Contextualize exceções e parasitas",
+          "text": "Partenogênese é desenvolvimento a partir de óvulo não fecundado, com mecanismos variados; não significa automaticamente clonagem perfeita. Em parasitologia, hospedeiro definitivo, intermediário, vetor e reservatório exigem a identificação do ciclo e do agente. Alternar hospedeiros não é o mesmo que alternar gerações haploide e diploide. Muitos parasitas humanos estudados em outras disciplinas nem sequer pertencem a Animalia."
+        }
+      ],
+      "examTraps": [
+        "Mitose também ocorre em células haploides; gametófitos vegetais produzem gametas por mitose.",
+        "Larva e adulto não são, por isso, gerações com ploidias diferentes.",
+        "Sem identificar o parasito e seu ciclo, não atribua automaticamente o papel de hospedeiro definitivo a uma espécie."
+      ],
+      "sourceRefs": [
+        "zg-life-cycles",
+        "zg-meiosis",
+        "zg-gametogenesis",
+        "zg-reproduction",
+        "zg-embryo",
+        "zg-parasitic-flatworms"
+      ]
+    },
+    {
+      "id": "zg-zoo-ecologia-toxicologia",
+      "title": "Conservar a fauna e compreender toxinas sem rótulos fáceis",
+      "domain": "zoologia",
+      "summary": "Um inventário útil conecta identidade, interações ecológicas, ameaça e mecanismo de exposição.",
+      "core": [
+        {
+          "heading": "Biodiversidade em diferentes escalas",
+          "text": "Diversidade genética ocorre dentro das espécies; diversidade de espécies considera a composição das comunidades; diversidade de ecossistemas abrange ambientes e processos. Riqueza é quantidade de espécies, enquanto abundância informa quantos indivíduos foram registrados. Uma fotografia confirma um registro com limitações de identificação, não mede automaticamente o tamanho da população. Falta de observação também não prova extinção local."
+        },
+        {
+          "heading": "Causas e conservação",
+          "text": "Perda e fragmentação de habitat, exploração excessiva e introdução de espécies podem alterar populações e interações. Conservar inclui habitat, conectividade, restauração e acompanhamento. Nomear uma espécie e atribuir uma categoria de ameaça são tarefas diferentes. Toda categoria precisa de fonte, escala geográfica e data; avaliação global e avaliação regional podem divergir. Um catálogo educativo não substitui um inventário com desenho amostral."
+        },
+        {
+          "heading": "Veneno, peçonha e contato",
+          "text": "Na terminologia usual, um animal peçonhento possui aparato para inocular uma secreção tóxica; animais venenosos podem causar exposição por ingestão ou contato. Há mecanismos intermediários e especializados, portanto a via deve ser descrita. Anfíbio não é sinônimo de animal inofensivo, nem todos os anfíbios têm o mesmo sistema de defesa. Cores e formato da cabeça não constituem testes universais de segurança."
+        }
+      ],
+      "advanced": [
+        {
+          "heading": "Da molécula ao efeito",
+          "text": "Uma substância bioativa pode exercer funções defensivas, predatórias ou comunicativas e ter efeitos diferentes entre organismos. Identificar atividade molecular não comprova eficácia clínica ou segurança de consumo. No perfil zoológico, separe organismo, secreção, composto, alvo e evidência. Registre a exposição estudada e os limites de extrapolação. A observação educativa deve preservar o animal; manipular, ingerir ou aplicar secreções não é um método de identificação."
+        }
+      ],
+      "examTraps": [
+        "Um grande número de registros pode refletir esforço de observação, não maior abundância real.",
+        "Peçonhento não significa perigoso na mesma intensidade em qualquer contato.",
+        "Potencial farmacológico não torna segura a secreção bruta nem autoriza inferir benefício terapêutico."
+      ],
+      "sourceRefs": [
+        "zg-biodiversity",
+        "zg-threats",
+        "zg-conservation",
+        "zg-toxinology",
+        "zg-drug-development"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "zg-q-zoo-01",
+      "domain": "zoologia",
+      "topic": "Filogenia e Ecdysozoa",
+      "level": "vestibular",
+      "prompt": "Um estudante reuniu minhocas, lombrigas e lagartas porque os três têm corpo alongado. Qual revisão aproxima o agrupamento de uma classificação filogenética?",
+      "options": [
+        "Reunir minhocas e lombrigas por ambas possuírem o mesmo tipo de segmentação.",
+        "Relacionar nematódeos e artrópodes em Ecdysozoa, considerando a muda da cutícula e evidências filogenéticas.",
+        "Separar todos os animais com larva dos animais que possuem celoma.",
+        "Usar apenas o tamanho do corpo para definir seus filos."
+      ],
+      "answerIndex": 1,
+      "explanation": "Lombrigas são nematódeos; lagartas são larvas de artrópodes. Os dois filos integram Ecdysozoa. Minhocas são anelídeos, integrando Lophotrochozoa. Corpo alongado não é evidência suficiente de parentesco próximo, e nematódeos não apresentam a segmentação típica dos anelídeos.",
+      "sourceRefs": [
+        "zg-animal-phylogeny",
+        "zg-nematoda",
+        "zg-mollusca-annelida"
+      ]
+    },
+    {
+      "id": "zg-q-zoo-02",
+      "domain": "zoologia",
+      "topic": "Aves, cladística e reprodução",
+      "level": "graduacao",
+      "prompt": "Uma exposição afirma que répteis são um grupo que reúne lagartos, crocodilianos e aves, mas apresenta aves em uma sala própria. Qual comentário é cientificamente adequado?",
+      "options": [
+        "A separação das salas demonstra que aves não podem ser dinossauros.",
+        "A presença de penas elimina o parentesco das aves com outros répteis.",
+        "Aves integram a linhagem dos dinossauros; a organização didática das salas não muda sua posição filogenética.",
+        "A reprodução ovípara é suficiente para reunir todos esses animais e excluir monotremados de Mammalia."
+      ],
+      "answerIndex": 2,
+      "explanation": "Aves descendem de dinossauros terópodes e estão incluídas na linhagem reptiliana. Um arranjo didático pode separar capítulos ou salas. Excluir aves da totalidade dos répteis produz um agrupamento tradicional parafilético. Oviparidade, sozinha, não delimita essas linhagens; monotremados são mamíferos que põem ovos.",
+      "sourceRefs": [
+        "zg-reptilia",
+        "zg-aves",
+        "zg-mammalia"
+      ]
+    },
+    {
+      "id": "zg-q-zoo-03",
+      "domain": "zoologia",
+      "topic": "Ploidia e posição da meiose",
+      "level": "vestibular",
+      "prompt": "Em um animal diplonte típico, gametas haploides se fundem; em uma samambaia, um gametófito haploide produz gametas. Qual descrição compara corretamente esses processos?",
+      "options": [
+        "Nos dois casos, o organismo produtor dos gametas precisa tornar-se tetraploide antes de reproduzir.",
+        "O gametófito haploide produz gametas por mitose; no animal, a redução de ploidia ocorre na linhagem germinativa por meiose.",
+        "O gametófito produz gametas por meiose, pois toda reprodução usa essa divisão na mesma etapa.",
+        "O zigoto animal desenvolve o corpo multicelular por sucessivas meioses."
+      ],
+      "answerIndex": 1,
+      "explanation": "No ciclo diplonte animal, a meiose origina células haploides na gametogênese; o zigoto diploide cresce por mitose. No gametófito já haploide, gametas são produzidos por mitose. Nas samambaias, a meiose do esporófito produz esporos. O nome da divisão depende da etapa e da ploidia, não apenas da função reprodutiva.",
+      "sourceRefs": [
+        "zg-life-cycles",
+        "zg-meiosis"
+      ]
+    },
+    {
+      "id": "zg-q-zoo-04",
+      "domain": "zoologia",
+      "topic": "Toxinologia e evidência",
+      "level": "graduacao",
+      "prompt": "Um catálogo informa que a secreção defensiva de um animal contém molécula com atividade em ensaio laboratorial. Qual conclusão pode ser registrada sem extrapolar a evidência?",
+      "options": [
+        "A secreção bruta deve produzir o mesmo benefício em seres humanos.",
+        "Se a molécula é natural, a identificação visual do animal torna o consumo seguro.",
+        "A atividade é um resultado no sistema testado; eficácia clínica, segurança e mecanismo de exposição ainda exigem evidências próprias.",
+        "Todos os animais do mesmo filo terão idêntica secreção, toxicidade e aparato de inoculação."
+      ],
+      "answerIndex": 2,
+      "explanation": "Composto isolado, secreção bruta, espécie e via de exposição são objetos diferentes. Um resultado experimental não estabelece benefício clínico nem segurança. O perfil deve descrever a evidência e o mecanismo de exposição, sem converter uma observação em recomendação de uso ou generalizar o risco a um filo inteiro.",
+      "sourceRefs": [
+        "zg-toxinology",
+        "zg-clinical-research"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "zg-animal-body",
+      "title": "OpenStax Biology 2e — 27.2 Features Used to Classify Animals",
+      "url": "https://openstax.org/books/biology-2e/pages/27-2-features-used-to-classify-animals",
+      "scope": "Simetria, folhetos embrionários, cavidades corporais e limites das generalizações embriológicas."
+    },
+    {
+      "id": "zg-animal-phylogeny",
+      "title": "OpenStax Biology 2e — 27.3 Animal Phylogeny",
+      "url": "https://openstax.org/books/biology-2e/pages/27-3-animal-phylogeny",
+      "scope": "Árvores como hipóteses; evidências morfológicas e moleculares; Ecdysozoa e Lophotrochozoa."
+    },
+    {
+      "id": "zg-iczn-names",
+      "title": "ICZN — Article 5. Principle of Binominal Nomenclature",
+      "url": "https://code.iczn.org/chapter-2-the-number-of-words-in-the-scientific-names-of-animals/article-5-principle-of-binominal-nomenclature/",
+      "scope": "Nomes zoológicos de espécie em dois termos e de subespécie em três termos."
+    },
+    {
+      "id": "zg-porifera",
+      "title": "OpenStax Biology 2e — 28.1 Phylum Porifera",
+      "url": "https://openstax.org/books/biology-2e/pages/28-1-phylum-porifera",
+      "scope": "Organização celular, filtração e diversidade das esponjas."
+    },
+    {
+      "id": "zg-cnidaria",
+      "title": "OpenStax Biology 2e — 28.2 Phylum Cnidaria",
+      "url": "https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "scope": "Cnidócitos, cavidade gastrovascular, pólipos e medusas."
+    },
+    {
+      "id": "zg-mollusca-annelida",
+      "title": "OpenStax Biology 2e — 28.4 Mollusks and Annelids",
+      "url": "https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "scope": "Manto, pé e massa visceral; circulação dos cefalópodes; segmentação e diversidade dos anelídeos."
+    },
+    {
+      "id": "zg-nematoda",
+      "title": "OpenStax Biology 2e — 28.5 Nematodes and Tardigrades",
+      "url": "https://openstax.org/books/biology-2e/pages/28-5-superphylum-ecdysozoa-nematodes-and-tardigrades",
+      "scope": "Cutícula com muda, pseudoceloma e formas livres ou parasitárias de nematódeos."
+    },
+    {
+      "id": "zg-arthropoda",
+      "title": "OpenStax Biology 2e — 28.6 Arthropods",
+      "url": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "scope": "Exoesqueleto, apêndices articulados, tagmas e variedade de sistemas respiratórios."
+    },
+    {
+      "id": "zg-deuterostomia",
+      "title": "OpenStax Biology 2e — 28.7 Superphylum Deuterostomia",
+      "url": "https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "scope": "Equinodermos, sistema ambulacrário e simetria secundária dos adultos."
+    },
+    {
+      "id": "zg-amphibia",
+      "title": "OpenStax Biology 2e — 29.3 Amphibians",
+      "url": "https://openstax.org/books/biology-2e/pages/29-3-amphibians",
+      "scope": "Respiração e diversidade dos ciclos de vida de anfíbios; desenvolvimento direto e variação entre linhagens."
+    },
+    {
+      "id": "zg-reptilia",
+      "title": "OpenStax Biology 2e — 29.4 Reptiles",
+      "url": "https://openstax.org/books/biology-2e/pages/29-4-reptiles",
+      "scope": "Amniotas, anexos embrionários e posição das aves entre os répteis."
+    },
+    {
+      "id": "zg-aves",
+      "title": "OpenStax Biology 2e — 29.5 Birds",
+      "url": "https://openstax.org/books/biology-2e/pages/29-5-birds",
+      "scope": "Origem dinossauriana das aves e adaptações respiratórias."
+    },
+    {
+      "id": "zg-mammalia",
+      "title": "OpenStax Biology 2e — 29.6 Mammals",
+      "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals",
+      "scope": "Caracteres de mamíferos e reprodução em monotremados, marsupiais e placentários."
+    },
+    {
+      "id": "zg-circulation",
+      "title": "OpenStax Biology 2e — 40.1 Overview of the Circulatory System",
+      "url": "https://openstax.org/books/biology-2e/pages/40-1-overview-of-the-circulatory-system",
+      "scope": "Circulação simples e dupla; separação dos circuitos em diferentes vertebrados."
+    },
+    {
+      "id": "zg-meiosis",
+      "title": "OpenStax Biology 2e — 11.1 The Process of Meiosis",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+      "scope": "Redução de ploidia, replicação, separação dos homólogos e recombinação."
+    },
+    {
+      "id": "zg-life-cycles",
+      "title": "OpenStax Biology 2e — 11.2 Sexual Reproduction",
+      "url": "https://openstax.org/books/biology-2e/pages/11-2-sexual-reproduction",
+      "scope": "Ciclos diplonte, haplonte e haplodiplonte; posição da meiose e da fecundação."
+    },
+    {
+      "id": "zg-reproduction",
+      "title": "OpenStax Biology 2e — 43.1 Reproduction Methods",
+      "url": "https://openstax.org/books/biology-2e/pages/43-1-reproduction-methods",
+      "scope": "Reprodução sexuada, brotamento, fragmentação e partenogênese."
+    },
+    {
+      "id": "zg-gametogenesis",
+      "title": "OpenStax Biology 2e — 43.3 Human Reproductive Anatomy and Gametogenesis",
+      "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+      "scope": "Espermatogênese e ovogênese no modelo humano; distinção entre formação e maturação de gametas."
+    },
+    {
+      "id": "zg-embryo",
+      "title": "OpenStax Biology 2e — 43.6 Fertilization and Early Embryonic Development",
+      "url": "https://openstax.org/books/biology-2e/pages/43-6-fertilization-and-early-embryonic-development",
+      "scope": "Fecundação, clivagem, blástula e gastrulação."
+    },
+    {
+      "id": "zg-parasitic-flatworms",
+      "title": "OpenStax Biology 2e — 28.3 Flatworms, Rotifers, and Nemerteans",
+      "url": "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "scope": "Diversidade dos platelmintos e contextualização dos ciclos parasitários."
+    },
+    {
+      "id": "zg-biodiversity",
+      "title": "OpenStax Biology 2e — 47.1 The Biodiversity Crisis",
+      "url": "https://openstax.org/books/biology-2e/pages/47-1-the-biodiversity-crisis",
+      "scope": "Diversidade genética, de espécies e de ecossistemas; sem reutilizar contagens históricas como dados atuais."
+    },
+    {
+      "id": "zg-threats",
+      "title": "OpenStax Biology 2e — 47.3 Threats to Biodiversity",
+      "url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity",
+      "scope": "Perda de habitat, sobre-exploração e espécies invasoras; sem reutilizar projeções e estatísticas antigas."
+    },
+    {
+      "id": "zg-conservation",
+      "title": "OpenStax Biology 2e — 47.4 Preserving Biodiversity",
+      "url": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity",
+      "scope": "Inventário, identificação molecular, áreas protegidas e restauração."
+    },
+    {
+      "id": "zg-toxinology",
+      "title": "Ministério da Saúde — Guia de animais peçonhentos do Brasil",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_animais_peconhentos_brasil.pdf",
+      "scope": "Terminologia e diversidade dos mecanismos de envenenamento; riscos requerem avaliação por espécie e exposição."
+    },
+    {
+      "id": "zg-drug-development",
+      "title": "FDA — The Drug Development Process",
+      "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/drug-development-process",
+      "scope": "Distinção entre descoberta, pesquisa pré-clínica e pesquisa clínica; não traduz atividade experimental em indicação terapêutica."
+    },
+    {
+      "id": "zg-clinical-research",
+      "title": "FDA — Step 3: Clinical Research",
+      "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+      "scope": "Resultados pré-clínicos não substituem estudos de interação com o corpo humano."
+    }
+  ]
+}
